@@ -1,6 +1,5 @@
 BUNDLE
-https://androidplayer1.github.io/sources/m3u8/plugin
-https://androidplayer1.github.io/sources/movies/plugin
-https://androidplayer1.github.io/sources/music/plugin
-https://androidplayer1.github.io/sources/newpipe/plugin
-https://androidplayer1.github.io/sources/radio/plugin
+https://androidplayer1.github.io/sources/music/music.zip
+https://androidplayer1.github.io/sources/newpipe/newpipe.zip
+https://androidplayer1.github.io/sources/radio/radio.zip
+https://androidplayer1.github.io/sources/tv/tv.zip
