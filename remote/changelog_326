@@ -1,0 +1,1178 @@
+# 3.55.0 (07. Apr. 2021)
+Fix: Fetch auto completions crashes the app when not connected to internet
+Fix: App crash when started without internet connection
+Fix: App not responsive [ANR] on devices api less than 25
+Fix: App crashes when playing queue after search
+Fix: Hide search on QR Page
+Fix: Hide search on Themes page
+Fix: Hide search on About page
+Fix: Typos on Terms of Service Page
+Fix: Timer not stopping
+Fix: Feedback
+Fix: Changing active account does not update the app state
+Fix: External favorites shows all Medias
+Fix: Title animation
+Fix: Rename option `Play Video` to `Play`
+Fix: Colors for Playlist name input dialog
+Fix: Artists are duplicated for each download track
+Fix: Locale being ignored on devices API less than 25
+Fix: After changing language, wrong title is shown
+Improve: Media Player show default image when a track has none
+Improve: Translate language options
+Feature: Remember last position for Video medias
+Feature: Show pending downloads on Notification
+Feature: Show plugin version on Plugins page
+Feature: Show current query as title
+Feature: Navigate Animations
+Feature: Check for google services availability
+Feature: Support night mode
+
+
+# 3.54.3 (01. Feb. 2021)
+Fix: Title does not update when navigating back to home page
+Fix: Searching local Media`s including special characters crashes the app
+Fix: Do not attempt to install Plugins when offline
+Improve: Long queues prepare time
+
+# 3.54.2 (11. Jan. 2021)
+Fix: Authentication when using QR Code
+Improve: Cache extractors on Batch Download Service
+
+# 3.54.1 (06. Jan. 2021)
+Fix: Authentication
+Fix: Title does not update on "Online" Page
+Fix: Prevent unnecessary search when closing Search panel
+Improve: Handle faster longer Playlists
+
+# 3.54.0 (22. Dec. 2020)
+Feature: Support Android R
+Feature: Listen to music from Phone & SD Card
+Feature: Allow to download Authors
+Feature: Download Authors using QR Scanner
+Feature: New layout video player
+Feature: In-App application review
+Feature: Remember last played song
+Feature: Display Online Author on Circular Image
+Feature: Show grouped plugins on Menu
+Feature: Allow Plugins to decide between List and Grid layout
+Feature: Show bytes downloaded on Notification
+Feature: Include artist when searching in Local Media`s
+Improve: Allow using Audio Effects even if Media Player is not started
+Improve: Media Player show enabled|disabled state of Audio Effects
+Improve: Media Player cache big queue`s
+Improve: Floating button remember location
+Improve: App startup time
+Improve: Responsive Grid layout
+Improve: Medias page - Show Artist name instead of media duration
+Improve: Download services
+Improve: Floating Video Player
+Fix: Music Player disable seek if media can`t seek
+Fix: Close suggestions after search
+Fix: Display correct state whether Floating Button is shown or not
+Fix: Online Page crashes the app if service requires authentication
+Fix: Display artist of current playing song in lock screen
+Fix: Music Player shows incorrect progress for playing song
+Fix: Redundant CPU Performance when asking to play an Audio or Video
+Fix: Video Stream Service
+Fix: Do not display `None` options if there is no stream to select
+Fix: Refreshing Plugin`s content moves to next page instead
+Fix: Searching empty query crashes the app in Online Page
+Fix: Plugins Page - Bundle Dialog is shown incorrectly
+Fix: Style of Plugins Bundle Dialog and Create Playlist dialog is not consistent with app theme
+Fix: Refresh on About & Themes page
+
+# 3.53.0 (05. Oct. 2020)
+Feature: Support plugins which Authentication is necessary
+Improve: Loading streams
+Improve: Prevent Plugins to crash the app on startup
+Improve: Lazy load available streams
+Improve: Layout styles
+Fix: QR Page does not close after SCAN
+Fix: Installed Plugin does not show immediately
+Fix: Plugins do not install sometimes
+Fix: App crashes when user inputs special character`s
+
+# 3.52.0 (18. Sep. 2020)
+Feature: Support HLS Music
+Feature: Plugins Bundle
+Feature: HLS Music Player
+Improve: Streaming from Phone to PC, online VIDEO can be seek much faster
+Improve: Streaming from Phone, allows to directly play the stream from other Media Players
+Improve: Streaming from Phone, allow download to PC
+Improve: Popup Video Player
+Improve: Album Downloader
+Improve: Reduce resources when playing a video
+
+# 3.51.0 (05. Sep. 2020)
+Improve: Cast|Stream Video
+Improve: Loading time to start a video
+Improve: Download Manager
+Improve: Music Player
+Improve: Music Player Responsive
+Improve: Move Floating Button setting from Properties page to Music Player
+Fix: Restoring application from Cache state
+Fix: Cannot create local Album
+Fix: Online Author page refresh causes duplicate content
+Fix: Closing Video leaves the app in Full Screen Mode
+Fix: Long queues do not start playing
+Fix: Themes page crashes the app
+
+# 3.50.2 (15. Aug. 2020)
+Improve: Performance and Memory management
+Fix: Timer for Music when time overlaps at midnight
+Fix: Scan QR Always plays audio and ignores Video
+
+# 3.50.1 (13. Aug. 2020)
+Improve: Performance Improvements
+
+# 3.50.0 (10. Aug. 2020)
+Feature: Check for Plugin Update
+Fix: App crashes when going background and video is not ready to play
+Fix: Handle download interrupt
+
+# 3.49.0 (28. Jul. 2020)
+Feature: Support TS Video`s
+Feature: Video Player - Add track in browser action
+Feature: Check Plugin Compatibility
+Feature: Install plugins directly from Web App
+Improve: Convert Radio`s to Plugin
+Improve: Home Page Loading speed
+Improve: Enable first authenticated account automatically
+Improve: Home Page Search
+Fix: Video player crashes the app when no streams are available
+Fix: Pause video player if music starts
+
+# 3.48.0 (15. Jul. 2020)
+Feature: Plugins introduction
+Feature: Support Categories
+Improve: Home Layout
+Improve: Performance and Memory Management
+Improve: Localisation
+Improve: Loading streams
+Fix: Pause video if user plays a music
+Fix: Loading track`s for Online Album crashes the app
+Fix: Page Title disappears when opening a video
+Fix: Duplicate search menu when playing a video
+Fix: Cache`d video plays only with audio
+Fix: Search is enabled for pages that do not support search
+
+# 3.47.0 (25. Jun. 2020)
+Improve: Show current selected option on Preference Page
+Improve: Database
+Improve: Performance by 35%
+Fix: Connecting Bluetooth headset restarts the application
+
+# 3.46.0 (14. Jun. 2020)
+Feature: Timer for Music Player
+Improve: Media Player
+Improve: Battery optimization
+Improve: Memory Management
+Fix: Cache`d video plays only with audio
+
+# 3.45.0 (13. Jun. 2020)
+Feature: Add Default Quality for video playback on Preferences Page
+Improve: Online Video`s startup time
+Improve: Video Player start at 360p by default to save bandwidth
+Improve: Lyrics Finder
+Fix: SoundCloud when a search has no results crashes the app
+Fix: Stopping video before it starts crashes the app
+
+# 3.44.0 (08. Jun. 2020)
+Remove Active Download`s page on favor to use Notification`s
+Improve: Media Player support deleting current playing track
+Improve: Media Player track change and state detector
+Improve: Disable lyrics for Radio`s
+Fix: Home video`s do not load sometime`s
+Fix: Media Player update playlist when removing track
+Fix: Cancelling Download Dialog while loading crashes the app
+Fix: Playing some videos crashes the app
+Fix: Set concurrence download to 2 to avoid reject from server
+
+# 3.43.2 (06. Jun. 2020)
+Fix: Options do not show for Main Video on Home Page
+
+# 3.43.1 (05. Jun. 2020)
+Fix: Bandwidth Save
+Fix: Media Player Crashes once when changing active directory
+
+# 3.43.0 (04. Jun. 2020)
+Feature: New Media Player Notification
+Feature: Remember last playing song
+Feature: First Page options on Media`s
+Feature: Media Player Shuffle Mode
+Feature: Media Player Repeat Mode: Off, One, All
+Feature: Notification`s for Download`s
+Feature: Homepage Video options
+Improve: Media Player Headset control`s
+Fix: Radio`s page show loading spinner when loading next page
+
+# 3.42.0 (31. May. 2020)
+Improve: Dialog for creating an Local Album
+Improve: External Storage Management
+Improve: Music Lyrics does not block UI
+Improve: Download Track Dialog
+Improve: Video Player Sliding
+Fix: Some videos cannot be played online
+
+# 3.41.1 (23. May. 2020)
+Fix: Account does not show on home page
+Fix: Track`s page crashes the app randomly
+
+# 3.41.0 (21. May. 2020)
+Feature: Lyrics for Music
+Feature: Cast Video
+Feature: Play Radio with Queue
+Feature: Show Search when click on Toolbar
+Improve: Different Cryptography Key for every device
+Improve: SoundCloud Performance Improvements and bug fixes
+Improve: Playback toast message delay on Media Player
+Improve: Online Video Player Sort Video Qualities
+Improve: Show Loading Progress on Radio Page when Search
+Improve: Audio Player Page for Radio Stream`s
+Improve: Audio Effects when restarting the Media Player Service
+Improve: Recognize AN Player Workspace when selected
+Fix: SoundCloud Crashes the app when Search
+Fix: Downloading Playlist|Album does not create Local Album
+Fix: Share Option plays the Video instead of Sharing
+Fix: Video Player ignoring Mixed Streams
+Fix: Local`s Track Page Filter Videos
+Fix: TOS (Terms of Service) Page Layout
+Fix: Home Page always refresh
+Fix: Internet Save reuse Responses
+Fix: Online Author Page does not update App title when navigating from Tracks
+Fix: Incorrect Media Length
+Fix: Delete Local Album|Playlist including Track`s
+Fix: Full Screen Video Player
+Fix: Download Track Dialog crashes when clicking "Download" button and streams are not loaded
+Fix: Audio Player crashes randomly when clicking Repeat button
+Fix: Audio Player do not show duration for Live Streams
+
+# 3.40.0 (01. May. 2020)
+Improve: Dialog for Create Local Album
+Improve: Locale and Dialog Prompts
+Improve: Preference Page - Show current workspace name
+Improve: Bigger Video Items for Home Videos
+Fix: App crashes on start randomly
+Fix: Refresh does not work on Local Album`s page
+Fix: Radio remember selected source
+Fix: Popup Player seek progress
+Fix: Context Menu options for Local Track`s
+Fix: App Crash - Disconnecting Wireless Headset
+Fix: Removing a Local Track from Local Album does not update UI
+
+# 3.39.0 (01. May. 2020)
+Feature: Use app storage by default
+Feature: Background Application Wallpaper`s
+Feature: Motion Wallpaper
+Feature: Storage permission not required anymore
+Feature: Change working space
+Feature: Download audio, video and subtitles
+Feature: Up to 8K Video Offline
+Feature: Offline subtitles
+Improve: Hints for settings
+Improve: Store preferences on application context
+Improve: Locale
+Improve: Application Startup
+Improve: Media Player Performance
+Improve: Change logs
+Improve: Use AndroidX Views
+Improve: Audio Audio Effects
+Fix: Themes Page, apply changes immediately when changing the navigation color
+Fix: Radios not playing correct stream
+Fix: Show title on QR Page
+Fix: Show Offline Tracks on Home Page only when available
+Fix: Open Keyboard when pressing Search
+Fix: Close Keyboard when pressing back button
+Fix: Deleting a track crashes the app
+Fix: Reading author image for specific track
+Fix: Deleting Track leaves junk files
+Fix: Deleting the last track does not update Media Player UI
+Fix: Transparent Navigation and Status Bar
+Fix: Re-Order of Local Track`s does not work because Swipe Refresh takes the action
+
+# 3.38.0 (24. Mar. 2020)
+Feature: Video Player - Subtitles
+Feature: Video Player - Settings Dialog to Switch between Quality, Source and Subtitles
+Feature: Video Player - Change video quality on demand (bandwidth-meter)
+Fix: Show Quality button on `Video Page` only when playing from Online source
+Fix: Home Page crashes the app on Slow Internet Connection
+Fix: Home page shows wrong title
+
+# 3.37.3 (22. Mar. 2020)
+Improve: Async|Background operations
+
+# 3.37.2 (15. Mar. 2020)
+Fix: Downloads page refresh remains active
+Fix: Local Album`s page Create new Album does not refresh the list
+Fix: Local Album`s page manage track`s does not refresh the list
+Fix: Local Track`s page manage Albums does not work
+Fix: QR code some url`s
+
+# 3.37.1 (12. Mar. 2020)
+Fix: Track`s page refresh animation does not go away
+Fix: Local Author`s page
+
+# 3.37.0 (11. Mar. 2020)
+Feature: Refresh option on each page
+Feature: Album download dialog, show number of total tracks
+Fix: Theme change crashes the app
+Fix: Author`s page
+
+# 3.36.4 (09. Mar. 2020)
+Fix: Authors Page
+Fix: Media Player Image
+
+# 3.36.3 (08. Mar. 2020)
+Update: Terms of Service
+Fix: Subscribed videos do not show when logging first time
+
+# 3.36.2 (08. Mar. 2020)
+Fix: App crashes on Android 24
+Fix: Download dialog stuck loading
+
+# 3.36.1 (06. Mar. 2020)
+Fix: Radio Search
+Fix: Radio endless scroll
+
+# 3.36.0 (02. Mar. 2020)
+Feature: QR After Scan Action Preferences
+Feature: Play songs without download
+Feature: Download song from Music Player
+Fix: Account Login dialog does not close itself
+Fix: Online Account page crashes the app
+Fix: Some QR crashes the app
+- Fix: Enable/Disable of Signed Account does not work properly because of Cache
+
+# 3.35.2 (28. Feb. 2020)
+Fix: Downloading Unknown Sources using QR
+Fix: Album Page crashing the app
+
+# 3.35.1 (28. Feb. 2020)
+Fix: Allow to Download any kind of File from QR
+
+# 3.35.0 (27. Feb. 2020)
+Feature: Playback Speed
+Feature: Listen any song by QR Code
+Feature: Swipe to change track
+Improve: Database
+Improve: Assets
+Fix: Set track as Favorite does not work
+Fix: Search on Home Page does not work properly
+Fix: Repeat button on Media Player
+Fix: Text Color on Audio Effects
+Fix: Delete Offline Track on Search shows all tracks
+
+# 3.34.0 (13. Feb. 2020)
+Feature: Download from Video Player
+Feature: Download playlist
+Feature: New installation detect
+Feature: Delete album including track`s
+Improve: Replace Threads with Coroutines
+Improve: Confirm local album delete
+Improve: Sort tracks in Album | Favorites | Author Page
+Fix: Dialog width
+Fix: Download page statuses
+Fix: Download page pause|resume
+Fix: Restore Songs asynchronous
+Fix: Album page track`s count
+Fix: Album page manage tracks
+Fix: Album page track delete
+Fix: Authors image are downloaded as blank
+
+# 3.33.4 (30. Jan. 2020)
+Fix: Radio search crashing the app when no result is available
+
+# 3.33.3 (30. Jan. 2020)
+Fix: Soundcloud
+
+# 3.33.2 (29. Jan. 2020)
+Fix: Audio Player layout on landscape mode
+Fix: Full screen mode exit from Video Player
+
+# 3.33.1 (27. Jan. 2020)
+Fix: Home page is not reused while navigating
+
+# 3.33.0 (27. Jan. 2020)
+Fix: App crashes on Start [Service has changed]
+Video Player: Change icons
+Video Player: Support resize: Zoom, Fit, Fill
+Video Player: Fix screen rotate
+Video Player: Full screen support
+
+# 3.32.17 (24. Jan. 2020)
+HotFix:  service patch
+Improve: Http Requests are cached during the session
+
+# 3.32.16 (23. Jan. 2020)
+Fix: SoundCloud search crashes the app
+Fix: Radio search crashes the app
+
+# 3.32.15 (22. Jan. 2020)
+Feature: Triple click headphone to play the previous track. [Each click should be done within 500ms]
+Fix: App crashes when searching
+
+# 3.32.14 (21. Jan. 2020)
+Fix: Missing Media Format causes stream extract to fail
+Fix: Related tracks crashes the app if deleted
+
+# 3.32.13 (20. Jan. 2020)
+Fix: Radio Search
+
+# 3.32.12 (18. Jan. 2020)
+Improve the performance [Lazy Load Views]
+Fix: No internet connection crashes the app on Home Page Search
+
+# 3.32.11 (13. Jan. 2020)
+Fix: Home Page is showing the logged in user with wrong service
+
+# 3.32.10 (13. Jan. 2020)
+Fix: SoundCloud fix streaming url
+
+# 3.32.9 (13. Jan. 2020)
+Fix: Internet interruption causes the app to crash [Home Page]
+
+# 3.32.8 (10. Jan. 2020)
+Remove unnecessary access to Phone State
+
+# 3.32.7 (08. Jan. 2020)
+Bug fixes and improvements
+
+# 3.32.6 (08. Jan. 2020)
+Fix: Media Player controls on Notification not working properly sometimes
+
+# 3.32.5 (05. Jan. 2020)
+Fix: Media Player controls on Notification
+
+# 3.32.4 (03. Jan. 2020)
+Fix: Video Player Queues
+Fix: Subscriptions, History, Playlists and Authors Next page result`s
+
+# 3.32.3 (02. Jan. 2020)
+Fix: Media Player separate process
+
+# 3.32.1 (02. Jan. 2020)
+Fix: Media Player crashes the app when removing a track
+Improve Media Player
+
+# 3.32.0 (31. Dec. 2019)
+Move to KOTLIN
+Feature: Audio Effects BETA
+Improve: Video Player Flexibility
+Fix: Video player queues and flexibility
+Bug fixes and improvements
+
+# 3.31.2 (20. Dec. 2019)
+Improvement: Audio States
+Now AN Player will Pause|Resume or even low the volume down in some cases for a better experience
+
+# 3.31.1 (18. Dec. 2019)
+Fix: liveonlineradio.net
+Fix: Media Player Floating Button
+
+# 3.31.0 (17. Dec. 2019)
+Performance and Memory improvements
+Completely Rewrite the application
+New UI
+Improve Download Manager
+Update dependencies
+Fix: Terms and Conditions Page cause Application Crash
+Fix: SoundCloud
+Fix: Application crashes on start for devices older # than Android O
+Fix: Application crashes on start while creating the database
+Fix: Last Queue not being saved
+
+# 3.30.2 (08. Sep. 2019)
+Fix - Duration not being shown on Online results
+
+# 3.30.1 (07. Sep. 2019)
+Update - Replace bottom sheet on TRACKS page with Dialog
+
+# 3.30.0 (01. Sep. 2019)
+New - MK Language
+Fix - Rotating the screen causes some handled errors
+Fix - Load high image on Music Activity only when the network is available
+Improve preferences
+
+# 3.29.10 (27. Aug. 2019)
+Update - Icon
+Improve - Loading videos
+Improve - Loading comments
+Fix - Online video player becomes small on High Quality videos
+
+# 3.29.9 (24. Aug. 2019)
+Fix -  videos
+
+# 3.29.8 (22. Aug. 2019)
+Fix - Loading next page contents sometimes uses the previous service
+
+# 3.29.7 (21. Aug. 2019)
+Fix - Searching does switch to previous Service
+
+# 3.29.6 (21. Aug. 2019)
+Fix - History Tracks, Following Authors and Albums next page
+
+# 3.29.5 (21. Aug. 2019)
+Fix - SoundCloud: Url for Track, Album and Author
+
+# 3.29.4 (21. Aug. 2019)
+Fix - SoundCloud
+
+# 3.29.3 (21. Aug. 2019)
+Fix - SoundCloud Home Page
+Update - SoundCloud Login
+
+# 3.29.2 (16. Aug. 2019)
+Fix - SoundCloud music not playing
+
+# 3.29.1 (15. Aug. 2019)
+Feature - SoundCloud Login
+Bug fixes and improvements
+
+# 3.29.0 (14. Aug. 2019)
+Feature - SoundCloud support
+Bug fixes and improvements
+
+# 3.28.8 (09. Aug. 2019)
+Fix - # Numbers
+
+# 3.28.7 (09. Aug. 2019)
+Fix - Removing a song from "TRACKS" page does not update the list
+
+# 3.28.6 (09. Aug. 2019)
+Update - Dependencies
+Fix - Online Video Player freezing when waiting to load the video.
+Improvement - Online video player more responsive
+
+# 3.28.5 (06. Aug. 2019)
+Fix - Ordering Tracks on "TRACKS" page crashes the app as well as not updated on media player
+Fix - Closing the video immediately (before even loading) when started from Channel Page freezes the app.
+
+# 3.28.4 (04. Aug. 2019)
+Fix - Closing the app as soon as it starts causes a crash
+Update - Loading owner contents
+
+# 3.28.3 (03. Aug. 2019)
+Fix - Video is playing on background when the Activity is closed (ONLINE)
+Update - Action views Layouts
+
+# 3.28.2 (03. Aug. 2019)
+Fix - Video`s that have not enabled the RATING
+
+# 3.28.1 (02. Aug. 2019)
+Bug fix
+
+# 3.28.0 (02. Aug. 2019)
+Update - Core of App
+Update - Header on Left Side Navigation
+Update - Update media player to GoogleExo (can play most of the formats)
+Feature - Multiple Accounts Management
+Feature - Floating button for Media
+Feature - Swipe to refresh "ONLINE" Page
+Fix - Seeking of songs
+Fix - Pause music when video is playing
+Improvements and Bug fixes
+
+# 3.27.5 (07. Jun. 2019)
+New - Greentify Theme (DARK)
+Improvement - Changing theme will trigger all activities to apply the new theme.
+Fix - Media Player in Shuffle does not play the selected song but a random one
+
+# 3.27.4 (06. Jul. 2019)
+New - Save Errors in Output folder as JSON file
+Improvement - Author`s tab searching
+Improvement - History Tab of Downloads
+Improvement - Cache`s Folder
+Fix - Music Player displaying wrong track
+Fix -  playlist`s which contains deleted videos
+Fix - Music Player remove a song from queue
+Fix - App crashes when non fatal error happen`s
+Fix -  Playlist loading next page result
+Fix - Switching Radio does not reload the content from new Source
+Fix - Media Player Controller (Bottom) crashes the application trying to animate the PLAY/PAUSE Icon
+Fix - Music Player Activity crashes the application trying to animate the PLAY/PAUSE Icon
+Fix - Recover deleted songs
+Fix - Filter songs on Tracks Tab
+
+# 3.27.3 (02. Jul. 2019)
+Fix - Deleting in Tracks Tab
+Fix - Favorites and Tracks Filtering
+Fix - Shuffle not working properly
+
+# 3.27.2 (30. Jun. 2019)
+Fix - Layout (Title of Video) on
+
+# 3.27.1 (30. Jun. 2019)
+Improvements
+Fix - Application not working properly when started with no internet connection
+Fix - Styles
+
+# 3.27.1 (26. Jun. 2019)
+Improvement - Searching and Filtering
+Fix - Music Player display high quality image when ready
+Fix - Most Played Tracks
+
+# 3.27.0 (23. Jun. 2019)
+Theme - Add option to color the software navigation bar
+Fix - Channels not loading
+
+# 3.26.1 (23. Jun. 2019)
+Improvement - Remember Radio`s list and country during the session of the App.
+Improvement - Check if Media Player is running on background before asking for status
+Fix - Searching on offline tabs, search for auto complete words including .
+
+# 3.26.0 (23. Jun. 2019)
+Feature - Add menu option to see the used space
+Fix - Deleting from Cache Page sometimes crashes the app.
+Fix - Closing the download dialog before the load crashes the app.
+
+# 3.25.1 (22. Jun. 2019)
+Fix - Radios not loading after # 3.25.0
+
+# 3.25.0 (19. Jun. 2019)
+Feature - Popup Player for Offline Videos
+Feature - Subtitles for Offline Videos
+Feature - Share Offline Video
+Feature - Show issues on SimpleActionView
+Fix - Completed download page switch to delete
+Fix - Show only Music in Offline Tab
+Improvements
+
+# 3.24.0 (10. Jun. 2019)
+Feature - Video Player show title for current song
+Feature - Video Player support full screen
+Feature - Icons on Settings Page
+Feature - Dark High Contrast Theme
+Improvement - Downloading faster (part download)
+Improvement - Architecture of UI Layouts
+Fix - Bottom sheet contents in landscape opening minimized
+
+# 3.23.2 (09. Jun. 2019)
+Fix - Last queue was not saved.
+
+# 3.23.1 (09. Jun. 2019)
+Fix - Owner videos not being shown on Channel
+
+# 3.23.0 (08. Jun. 2019)
+Feature - Preview Theme`s
+Feature - New Theme #Gardenia
+Feature - New Theme #Purple
+Feature - Display animated Audio Effects for active track
+Feature - Reporting of crashes can be disabled from settings
+Improvement - Component modularize
+Fix - Handle no internet connection on Radio`s Tab
+Fix - Track not updated on UI when changing from Notification
+
+# 3.22.2 (05. Jun. 2019)
+Fix - Devices lower Lollipop (5.0) # crashes when playing a music.
+
+# 3.22.1 (05. Jun. 2019)
+Fix - Ask to play as music or video when Video content is available
+Fix - Author songs options
+Fix - Icons on Light Themes
+Fix - Styles
+Fix - Canceling active download
+Show alert if notifications are blocked
+
+# 3.22.0 (03. Jun. 2019)
+Feature - Eagle Theme
+
+# 3.21.0 (02. Jun. 2019)
+Feature -  Comments
+Fix - Playlists tab show songs for specific playlist
+Fix - Display content when no internet connection is available
+
+# 3.20.3 (02. Jun. 2019)
+Scroll header content with the radios
+Fix - Headphone buttons after the # 3.20.2
+
+# 3.20.2 (02. Jun. 2019)
+Fix - ITube Copy
+Fix - Animation Music
+Improvement - Modularize Media Player
+
+# 3.20.1 (31. May. 2019)
+Fix - Screen rotation crashes the app when closing
+
+# 3.20.0 ( 31. May. 2019)
+Feature: Open author from Music Player
+Improvement loading tracks
+
+# 3.19.0 ( 31. May. 2019)
+Feature - New Layout for "About Application"
+Fix - Bottom Player was not showing when playing a Radio ( when the app is re-opened )
+Fix - Searching for liveonlineradio.net
+
+# 3.18.0 (30. May. 2019)
+Feature - Support liveonlineradio.net
+Fix - Video meta data for some videos
+Fix - Toolbar layout on Preferences screen
+
+# 3.17.5 (25. May. 2019)
+Fix - Video in landscape crashes the app
+
+# 3.17.4 (24. May. 2019)
+Feature - New way to download songs/videos
+
+# 3.17.3 (23. May. 2019)
+Fix - Radio not starting
+
+# 3.17.2 (23. May. 2019)
+Fix - Recover videos
+Fix - Change Logs dialog click crashes the app
+
+# 3.17.1 (22. May. 2019)
+Fix - Active download title not displaying
+Fix - Recover deleted songs from unknown sources
+
+# 3.17.0 (22. May. 2019)
+Feature: Add bottom navigation mode
+Feature: Hide navigation buttons when watching full screen video
+Improvement: Reduce application size from 26 MB to 6 MB
+Improvement: Add Layout fading effect on scroll
+Improvement: Memory Management
+Improvement: Better Performance
+Improvement: Boot Performance by 75%
+Feature: Add Option in Settings to choose Navigation Mode
+Feature: Scroll long titles
+Feature: New Music Player Design
+Feature: Google ExoPlayer as Video Player
+Feature: Play 1080p, 2k, 4k videos
+Feature: Migrate to Android X
+Improvement: New Design on  Player
+Feature: Play video with screen OFF
+Feature: Play video on background (Just press HOME button)
+Feature: Support Subtitles (Captions)
+Improvement: Interrupt all background threads when activity | app closes.
+Improvement: Show important alerts
+Feature: Popup Video Player
+Add Crashlytics
+Improvement: New Design for Radio
+
+# 3.16.0 (10. Apr. 2019)
+Cancel active downloads when Internet adapter is disconnected.
+New Home Page Layout (Light/Dark)
+New  Result Layout
+Handle some errors when internet is interrupted
+Song Item set background color to default when dragging
+Hide Tabs when scrolling
+Hide Suggestions when scrolling
+
+# 3.15.5 (07. Apr. 2019)
+Bug Fix: Repeat Mode Disabled not working
+Remember choices for Repeat and Shuffle Mode
+
+# 3.15.4 (06. Apr. 2019)
+Bug Fix: Search Songs on Offline Tab
+
+# 3.15.3 (03. Apr. 2019)
+Restore songs from background
+
+# 3.15.2 (01. Apr. 2019)
+Add settings for Animation of Music on the main Page
+Improvements with Google Ads on Memory Management
+Improvements with Google Analytic on Memory Management
+Improvements with Google FireBase on Memory Management
+
+# 3.15.1 (31. Mar. 2019)
+Fix language on Offline Tab
+
+# 3.15.0 (31. Mar. 2019)
+Live Radio
+Authenticate with Google to AN Player
+Backup and Restore Databases with the Server
+Color animation on the screen corners when music is on. :)
+Remove one-time setup
+Add 3 Types to Video Player: Normal, Crop Center, Fill
+Fix Bugs on Kit-kat # where the contents were not loading
+Fix bugs on the bottom media player, where the play button toggle was not working properly
+Move Ads, Tabs options to Settings page
+Fix restore deleted songs from unknown source
+
+# 3.14.0 (17. Mar. 2019)
+Memory Leaks Fixed on Search Videos List
+Introduce Ads Settings
+Replace Trending, Subscription Videos on Main page with Suggestion Buttons
+Show icons on tab
+
+# 3.13.0 (16. Mar. 2019)
+Bug Fixes
+Fix Video on Landscape mode.
+Fix song remove from queue on Media Manager.
+Fix deletion from the Cache Management -> History Tab
+Fix first time Setup Screen
+Fix menu options for Channels, Playlists, Compilation.
+Fix title of playlist on Activity.
+Fix Google authentication. Every time the user logs in or out, the app was not using the changes till the next
+time the app starts.
+Fix No Internet Connection Layout on Home Tab
+Improvements
+Browse History Contents
+Browse Subscribed Channels
+Browse Saved Playlists.
+Replace Confirm Dialog with Bottom Sheet Dialog.
+Playlist - Add Manage option (Now you can add songs to playlist much easier)
+Feedback, Login, Crash Report switched to Dialogs.
+Channels - Change the layout on different screen orientation.
+Display albums on dialog.
+Show file size on Download Dialog with related quality.
+Setup Screen - Layout improvements
+Architecture improvements
+Order songs on the Offline Tab
+Downloads -> History Tab Layout Improvements.
+Add scrollbars to Dialog Videos List.
+
+# 3.12.1 (05. Mar. 2019)
+Handle large options on bottom sheet.
+
+# 3.12.0 (04. Mar. 2019)
+Bug Fixes and Improvements
+Layout Improvements
+Display options on the bottom of the screen.
+
+# 3.11.0 (01. Mar. 2019)
+Layout improvements
+Add icons on Context Menu`s
+
+# 3.10.0 (24. Feb. 2019)
+Tab Manager (Hide or show default Tabs)
+
+# 3.9.1 (23. Feb. 2019)
+Fix Horizontal Video not opening on tapping.
+Fix UI freezes after exit from Channels, Playlist or Video.
+
+# 3.9.0 (23. Feb. 2019)
+Memory Improvements
+Performance Improvements
+Layout Improvements
+Fixed content loading forever.
+Major Bug fixes
+
+# 3.8.0 (13. Feb. 2019)
+Play video from a song.
+Change Language from Settings.
+Optimize Channels Database.
+Bug Fixes
+
+# 3.7.0 (09. Feb. 2019)
+Bug Fixes
+Subscriptions if Logged In.
+Media Player now consumes 10x less RAM Memory. (Independent Process)
+Fixed: Move contents from other apps.
+
+# 3.6.10 (01. Feb. 2019)
+Bug Fixes
+
+# 3.6.9 (31. Jan.2019)
+Bug Fix - Removing a song from playlist crashes the app.
+
+# 3.6.8 (31. Jan. 2019)
+Bug Fix - Favorites Remove Song Crashes the App Fix
+
+# 3.6.7 (19. Jan. 2019)
+Feature - Be informed when there is a Critical Bug.
+Bug Fix - Cache was not starting
+
+# 3.6.6 (14. Jan. 2019)
+Improvements
+
+# 3.6.5 (02. Jan. 2019)
+Bug fix: Itube Transfer
+
+# 3.6.4 (30. Dec. 2018)
+Bug Fixes
+
+# 3.6.3 (29. Dec. 2018)
+Bug Fixes
+
+# 3.6.2 (26. Dec. 2018)
+Bug Fix: Shuffle Songs (Shuffle now will always randomly sort the songs in queue)
+
+# 3.6.1 (20. Dec. 2018)
+Bug Fix: Change playlist on media player when the playlist is updated.
+Remove Empty Space from Bottom.
+
+# 3.6.0 (16. Dec. 2018)
+Bug Fixes
+Show current queue
+Open song in
+Options in Media Player
+Search songs by Keywords
+Filter Songs
+
+# 3.5.4 (13. Dec. 2018)
+Bug Fixes
+
+# 3.5.3 (27. Nov. 2018)
+Fixed Offline for some videos.
+Fixed Crashing when closing a author.
+
+# 3.5.2 (25. Nov. 2018)
+Bug Fixes.
+
+# 3.5.1 (24. Nov. 2018)
+Bug-Fix: Video Player Crash
+
+# 3.5.0 (23. Nov. 2018)
+Bug Fixes
+3 New Themes: Blurpe, Green Mint, Black Pearl Dark
+Feedback - Now you can write feedback to us.
+Change Albums Design.
+
+# 3.4.7 (20. Nov. 2018)
+Bug-Fix: Online Video Player
+Bug-Fix: Text Suggestions when searching
+
+# 3.4.6 (20. Nov. 2018)
+Bug Fix: Google localAccount was not showing sometimes on left menu.
+Improvements
+Change Â°MoreÂ° Button design in Horizontal View.
+
+# 3.4.5 (20. Nov. 2018)
+Bug fixes
+
+# 3.4.4 (20. Nov. 2018)
+Bug Fix: Crash on Channels
+Bug Fix: Crash on Video Player
+
+# 3.4.3 (19. Nov. 2018)
+Bug Fix: Stop Music Player when playing a video.
+
+# 3.4.2 (19. Nov. 2018)
+Bug Fixes
+Fixed crash for some videos during cache.
+Fixed crash when exiting from application.
+Android Pie (9.0) - Fixed Background Services #Major_BUG
+Some other fixes.
+
+# 3.4.1 (18. Nov. 2018)
+Bug Fixes
+
+# 3.4.0 (18. Nov. 2018)
+Bug Fixes
+Report Bugs
+Crash Activity
+
+# 3.3.0 (17. Nov. 2018)
+Show search suggestion by selected tab.
+
+# 3.2.2 (17. Nov. 2018)
+Show search suggestions
+Fix Offline Video Player
+Improvements
+
+# 3.2.1 (16. Nov. 2018)
+Improvements
+
+# 3.2.0 (16. Nov. 2018)
+Cache videos from Channel.
+Online Video Player: Show immediately video player when scrolling up.
+
+# 3.1.9 (16. Nov. 2018)
+Bug-Fix: Delete song from queue when that song is being deleted.
+
+# 3.1.8 (15. Nov. 2018)
+Bug-Fix: On Song removed app stops unexpected
+Bug-Fix: Is Song active returning false positive.
+
+# 3.1.7 (15. Nov. 2018)
+Fix Google Login
+
+# 3.1.6 (15.nov.2018)
+Fix Copy Contents from other Players
+Bug-Fix: Channel Avatar Url
+Translucent Navigation
+
+# 3.1.5 (15.nov.2018)
+Do not show ads on every startup of the app.
+
+# 3.1.4
+Bug Fix - BG Player copy data.
+Bug Fix - Video Keywords
+
+# 3.1.3
+Bug Fix - Pause the song if the earphone gets disconnected.
+
+# 3.1.2
+Bug Fixes
+
+# 3.1.1
+Fix Horizontal Video Results
+Introduce transitions
+
+# 3.1.0
+Major Bug Fixes
+Update -Api
+Add Video Length on Horizontal Results
+Supports Shelfs on Channel
+Add published date to videos
+More-Button on Horizontal View
+Swipe-able Media Player
+Re-base the Database to v2
+Use BackKey to Close the MediaPlayer, Drawer, Search Result or the Application
+
+# 3.0.9
+Improvements on Cache Manager.
+
+# 3.0.8
+Fix bug when opening, caching a Video.
+
+# 3.0.7
+Fix bugs on Media-Player
+
+# 3.0.6
+Fix bugs on  Video Player
+Improve  Video Player
+Fix Database Bug
+
+# 3.0.5
+Bug Fixes
+Improvements
+Better Memory Management
+Fix Preference Screen
+Fix Layout Theme on Setup Screen
+Fix Ads
+
+# 3.0.4
+Bug Fixes
+Improvements
+Fix Lag
+
+# 3.0.3
+Bug Fixes
+
+# 3.0.2
+Bug Fixes
+
+# 3.0.1
+Bug Fixes
+Improvements
+
+# 3.0.0
+Bug Fixes
+Totally new architecture
+70% of Application is optimized
+Design Improvement
+
+# 2.11.0
+New - Google Login
+Refactor -
+Bug Fix - Ads were being called twice.
+
+# 2.10.0
+New - Pinkie Theme
+
+# 2.9.1
+New - Retry Button when there is no internet connection
+Update - Improved the way to check for internet connection
+
+# 2.9.0
+New - Scrollbars
+
+# 2.8.0
+Feature - Read change logs
+
+# 2.7.2
+Bug Fix - Shuffle Mode (Current song was changing)
+New - Count the time played for each song.
+New - Order Property.
+
+# 2.7.1
+Bug Fix - Rotation
+
+# 2.7.0
+New - use the application even if the device is locked.
+
+# 2.6.5
+Buf Fix - Shuffle Mode
+
+# 2.6.4
+Bug Fix - Prevent inserting new song in list when the songs are filtered by a query
+
+# 2.6.3
+Bug Fixes
+Improvements
+
+# 2.6.2
+Bug Fix - Themes
+Bug Fix - Enable and disable color added to media player
+Bug Fix - when downloading, crashing the app if search is active on song tab
+
+# 2.6.1
+New - Electromagnetic theme
+
+# 2.6.0
+New - Support Themes
+New - Light Theme Added
+New - Double tap toggle button (headphone) to skip song
+New - Swipe to change song
+Bug Fix - Media PlayFromFile, do not play a song when a phone call is active.
+Bug Fix - Some pre-lollipop issues with drawings xml vector
+Bug Fix - Kitkat Media PlayFromFile Service
+Bug Fix - collapsing toolbar text color
+Add - All theme attributes
+Refactor - Media PlayFromFile Service connect with Media PlayFromFile properties
+Refactor - Styling
+Code Cleanup
+
+# 2.5.5
+Refactor - XML Resources
+Refactor - Design
+Refactor - Layouts
+Delete - Dispose on adapters
+Delete - parents on destroy ( Memory leak )
+Bug Fix - Adapter notification on PlayFromFilelistActivity
+
+# 2.5.4
+Bug Fix - Next song was not being played automatically.
+
+# 2.5.3
+Bug Fix - Media PlayFromFile.
+Bug Fix - The service was not called properly.
+Bug Fix - Do not start media player when moving prev or next if the player is on Pause State.
+Refactor and Improve - Preferences.
+Refactor and Improve - Fragments.
+Refactor and Improve - Adapters.
+Deleted unused classes.
+
+# 2.5.2
+Bug Fix - PlayFromFile list
+Bug Fix - Media player stops unexpected
+Refactor - Changed Setting table to preferences
+
+# 2.5.1
+Bug Fix - Video could not be opened online.
+
+# 2.5.0
+Add - missing locales
+Add - # property to Error Model
+Add - Handled Property to Error Model
+Add - Error handlers
+Bug Fix - Videos that could not be made available offline
+Bug Fix - Downloader Thread Deadlock
+Bug Fix - Prevent auto start of Media PlayFromFile when unplugging earphones
+Bug Fix - MediaPlayFromFile
+Bug Fix - Initialize ADMOBILE only if there is internet connection
+New - Removed Stop from iTube Service
+New - Delete songs from the DB which ones are deleted from unknown sources
+Delete - Unused drawables
+Improvement - Memory Management.
+Refactor - Resultview
+Refactor - iTube Service (Changed service to Intent Service)
+Refactor - Channels
+Refactor - DownloadItem
+Refactor - iTube Service
+Refactor - Downloads
+Refactor - Adapters and Tabs
+Refactor - Main Page
+Code cleanup
+
+# 2.0 - 2.5.0
+Beta Stage
+Bug Fixes
+Improvements
+New Features
+*...
+
+# 1.0 - 2.0
+Known as iCache 1.o
+More logs can be found on our website.
